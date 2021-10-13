@@ -192,6 +192,8 @@
   .listClass {
     padding-top: 70px;
     gap: 2ch;
+    align-items: center;
+    justify-content: flex-start;
   }
   .ul h3 {
     font-size: 12pt;
