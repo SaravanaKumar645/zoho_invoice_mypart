@@ -120,8 +120,8 @@
 }
 .select {
   color: white;
-  width: 240px;
-  text-align: center;
+  width: 220px;
+  text-align: left;
   background-color: #002b67;
 }
 /* animation effect for li items  */
@@ -161,11 +161,7 @@
   .invoicedetails {
     width: 100%;
   }
-  .socialandcountryWrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 3ch;
-  }
+
   .titleClass {
     text-align: center;
   }
@@ -192,11 +188,28 @@
   .listClass {
     padding-top: 70px;
     gap: 2ch;
-    align-items: center;
-    justify-content: flex-start;
+    padding-left: 0;
   }
   .ul h3 {
     font-size: 12pt;
+  }
+  .socialandcountryWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 3ch;
+  }
+  .socialmedia,
+  .selectCountry {
+    transform: translateX(-14%);
+  }
+  .socialmedia h3 {
+    font-size: 12pt;
+  }
+  .menuitem {
+    background-color: #002b67;
+  }
+  .menuitem:hover {
+    background-color: rgb(230, 224, 224);
   }
 }
 /* animation effect for li items 
