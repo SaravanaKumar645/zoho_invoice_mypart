@@ -16,9 +16,17 @@
   padding: 30px 0 30px 0;
   border-bottom: 1px solid rgb(188, 214, 253);
 }
+.greenGlobe {
+  height: 260px;
+  width: 80px;
+  position: absolute;
+  left: 0;
+  top: 3%;
+}
 .titleClass {
   text-align: left;
   display: flex;
+  padding-left: 20px;
   flex-wrap: wrap;
   flex-direction: column;
 }
@@ -65,6 +73,7 @@
 .listClass {
   display: flex;
   flex-wrap: wrap;
+  padding-top: 30px;
   padding-left: 50px;
   gap: 6ch;
 }
@@ -161,7 +170,9 @@
   .invoicedetails {
     width: 100%;
   }
-
+  .greenGlobe {
+    display: none;
+  }
   .titleClass {
     text-align: center;
   }

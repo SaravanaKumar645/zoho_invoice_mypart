@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Button, Select, MenuItem } from "@mui/material";
 import InputLabel from "@mui/material/InputLabel";
 import invoicestyles from "./Invoicedetails.module.css";
+import { imageConfigDefault } from "next/dist/server/image-config";
 const countries = [
   {
     name: "Global",
@@ -68,6 +69,10 @@ const Invoicedetails = () => {
   return (
     <div className={invoicestyles.invoicedetails}>
       <div className={invoicestyles.header}>
+        <img
+          src="/images/country-flags/green-globe.png"
+          className={invoicestyles.greenGlobe}
+        />
         <div className={invoicestyles.titleClass}>
           <h1>
             Transform your billing process for{" "}
